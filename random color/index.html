@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random color using dom concept</title>
+    <style>
+      .box{
+        width: 10rem;
+        height: 10rem;
+        border: none;
+        cursor: pointer;
+        
+}
+.container{
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+}
+.text{
+        display: flex;
+      justify-content: center;
+      
+}
+#yellow{
+        background-color: yellow;
+}
+#green{
+        background-color: green;
+}
+#red{
+        background-color: red;
+}
+#purple{
+        background-color:purple;
+}
+#blue{
+        background-color: blue;
+}
+#Coral{
+        background-color: Coral;
+}
+#Violet{
+        background-color: Violet;
+}
+#IndiGo{
+        background-color: IndiGo;
+}
+#Green{
+        background-color: Green;
+}
+#Teal{
+        background-color: Teal;
+}
+#blue{
+        background-color: blue;
+}
+#blue{
+        background-color: blue;
+}
+#blue{
+        background-color: blue;
+}
+#blue{
+        background-color: blue;
+}
+#blue{
+        background-color: blue;
+}
+
+
+.hell{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
+}
+.lastbtn{
+        display: flex;
+       
+       margin: auto;
+      padding: 20px 35px;
+      background:linear-gradient(100deg,red,purple,yellow,green,Teal);
+      font-size: 19px;
+      font-weight: 700;
+      border: none;
+      color: white;
+}
+
+body{
+        transition: all 1.5s;
+}
+    </style>
+</head>
+<body>
+        <div>
+
+                <h1 class="text">Color Scheme Switcher</h1>
+                <div class="container hell">
+                        <span class="box" id="yellow"></span>
+                        <span class="box " id="green"></span>
+                        <span class="box " id="red"></span>
+                        <span class="box " id="purple"></span>
+                        <span class="box " id="blue"></span>
+                        <span class="box" id="Coral"></span>
+                        <span class="box " id="Violet"></span>
+                        <span class="box " id="IndiGo"></span>
+                        <span class="box " id="Green"></span>
+                        <span class="box " id="Teal"></span>
+                        <span class="box" id="yellow"></span>
+                        <span class="box " id="green"></span>
+                        <span class="box " id="red"></span>
+                        <span class="box " id="purple"></span>
+                        <span class="box " id="yellow"></span>
+                        <span class="box " id="Teal"></span>
+                        
+                       
+                        
+                </div>
+                <h2 class="text"> Try Clicking on one of the colors above to change the background color of the page ! </h2>
+        </div>
+        <button class="lastbtn">Reload</button>
+                
+        <script src="script.js"></script>
+</body>
+</html>
